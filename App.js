@@ -32,7 +32,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Search Movie</Text>
+      <Text style={styles.title}>MovieDB Search</Text>
       <TextInput
       style={styles.searchBox}
       onChangeText= { text => setState(prevState => {
@@ -84,11 +84,12 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20
   },
   title: {
-    fontSize: 32,
+    fontSize: 30,
     color: "#FFF",
     textAlign: "center",
     fontWeight: '700',
-    marginBottom: 20
+    marginBottom: 20,
+    width: "100%"
   },
   searchBox:{
     fontSize: 20,
