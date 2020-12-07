@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "moviedbnative",
-    "slug": "moviedbnative",
+    "name": "moviedbFlatlist",
+    "slug": "moviedbflatlist",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/movies-icon.png",
@@ -28,6 +28,6 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "description": "A movie database search application made using react native and OMDB API. "
+    "description": "A movie database search application made using react native Flatlist and TMDB API. "
   }
 }
